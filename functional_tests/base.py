@@ -3,7 +3,6 @@ from selenium.webdriver.common.keys import Keys
 #from django.test import LiveServerTestCase
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 import sys
-from unittest import skip
 
 class FunctionalTest(StaticLiveServerTestCase):
   
